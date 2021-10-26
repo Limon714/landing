@@ -131,3 +131,20 @@ h1{
     background: rgb(114, 85, 46);
     color: #fcfcfc;
 }
+.portfolio-section .mixitup-control-active{
+    background-color: #fff;
+    color: #000;
+}
+@media (max-width:480px) {
+    .portfolio-filter button{
+        background: rgb(81, 1, 88);
+        color: rgb(246, 248, 248);
+        padding: 0.5rem 0.7rem;
+        border: none;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        border-radius: 10px;
+        margin: 0 0.2rem;
+        transition: 0.5s;
+    }
+}
