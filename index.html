@@ -57,35 +57,58 @@
       </div>
       <div class="row">
         <div class="portfolio-filter">
-          <button type="button">all</button>
-          <button type="button">web</button>
-          <button type="button">apps</button>
-          <button type="button">icons</button>
+          <button type="button" data-filter="all">all</button>
+          <button type="button" data-filter=".web">web</button>
+          <button type="button" data-filter=".apps">apps</button>
+          <button type="button" data-filter=".icons">icons</button>
+        </div>
+      </div>
+      <div class="container row">
+        <div class="col span_1_of_2 box mix web icons">
+          <img
+            src="resources/img/portfolio1.png"
+            alt="portfolio"
+            class="portfolio-image"
+          />
+          <h4>Isometric Mockup</h4>
+        </div>
+        <div class="col span_1_of_2 box mix apps">
+          <img
+            src="resources/img/portfolio2.png"
+            alt="portfolio"
+            class="portfolio-image"
+          />
+          <h4>Isometric Mockup-2</h4>
+        </div>
+        <div class="col span_1_of_2 box mix web">
+          <img
+            src="resources/img/portfolio3.png"
+            alt="portfolio"
+            class="portfolio-image"
+          />
+          <h4>Isometric Mockup</h4>
+        </div>
+        <div class="col span_1_of_2 box mix apps icons web">
+          <img
+            src="resources/img/portfolio4.png"
+            alt="portfolio"
+            class="portfolio-image"
+          />
+          <h4>Isometric Mockup</h4>
         </div>
       </div>
       <div class="row">
-        <div class="col span_1_of_2 box">
-            <img src="resources/img/portfolio1.png" alt="portfolio" class="portfolio-image">
-            <h4>Isometric Mockup</h4>
-        </div>
-        <div class="col span_1_of_2 box">
-            <img src="resources/img/portfolio2.png" alt="portfolio" class="portfolio-image">
-            <h4>Isometric Mockup-2</h4>
-        </div>
-        <div class="col span_1_of_2 box">
-            <img src="resources/img/portfolio3.png" alt="portfolio" class="portfolio-image">
-            <h4>Isometric Mockup</h4>
-        </div>
-        <div class="col span_1_of_2 box">
-            <img src="resources/img/portfolio4.png" alt="portfolio" class="portfolio-image">
-            <h4>Isometric Mockup</h4>
-        </div>
-      </div>
-      <div class="row">
-          <a href="#" class="btn btn-load-more">Load more project</a>
+        <a href="#" class="btn btn-load-more">Load more project</a>
       </div>
     </section>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+      crossorigin="anonymous"
+    ></script>
     <script src="vendor/js/html5shiv.min.js"></script>
     <script src="vendor/js/respond.min.js"></script>
+    <script src="vendor/js/mixitup.min.js"></script>
+    <script src="resources/js/main.js"></script>
   </body>
 </html>

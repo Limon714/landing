@@ -122,3 +122,12 @@ h1{
 .portfolio-section .col:nth-child(3){
     margin-left: 0;
 }
+.portfolio-section .btn-load-more {
+    background: #2b023b;
+    color: aliceblue;
+    margin: 2rem;
+}
+.portfolio-section .btn-load-more:hover{
+    background: rgb(114, 85, 46);
+    color: #fcfcfc;
+}
